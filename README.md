@@ -1,7 +1,7 @@
 # LWA-1D
 Code of the 1D model of local wave activity in the midlatitudes based on work by Nakamura and Huang [here](https://science.sciencemag.org/content/early/2018/06/21/science.aat0721). This model was used in an upcoming paper by Claire Valva (git author) and Noboru Nakamura at the University of Chicago. 
 
-This model was originally written by Paradise et al. 2019 for use in this [paper](https://doi.org/10.1175/JAS-D-19-0095.1) — portions, primarily the spectra of transient forcing, has since been edited. 
+This version of the model was originally written by Paradise et al. 2019 for use in this [paper](https://doi.org/10.1175/JAS-D-19-0095.1) — portions, primarily the spectra of transient forcing, has since been edited. 
 
 The executable file (run_traffic_model_cs.py) takes 3 arguments:
 1. a2Lambda: $2*\alpha*Y1$ (integer), typically 11, this is how the paramter $\alpha$ is adjusted.
